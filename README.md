@@ -107,13 +107,3 @@ Node.js and Corepack is required.
 brew install node@24
 npm install -g corepack
 ```
-
-### Release workflow
-
-When a pull request is merged into main branch, a new minor release is created by GitHub Actions.
-See https://github.com/int128/release-typescript-action for details.
-
-### Dependency update
-
-You can enable Renovate to update the dependencies.
-See https://github.com/int128/typescript-action-renovate-config for details.
